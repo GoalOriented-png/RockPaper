@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Tomogachi</title>
+
+      <link 
+        rel="stylesheet" 
+        href="styles/10-Rock-Paper-Scissors.css"> 
+    </head>
+    <body>
+ <p class="title">
+  Tomogachi
+ </p>  
+
+ <button onclick="
+
+  isPaused = false;
+  localStorage.setItem(`isPaused?`, JSON.stringify(isPaused));
+
+  window.location.href = `http://127.0.0.1:5500/99-Tomogachi.html`;
+
+
+ ">New Page</button>
+ 
+<input class="js-name-input" placeholder="Insert Name Here" onkeydown="keyDownEnterName(event);">
+
+<button onclick="
+naming();"
+>NAME</button>
+
+<p class="name-display"></p>
+
+
+
+
+  <script src="scripts/99-Tomogachi.js"></script>
+ </body>
+</html>

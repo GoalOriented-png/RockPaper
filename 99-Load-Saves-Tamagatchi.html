@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Tomogachi</title>
+
+      <link 
+        rel="stylesheet" 
+        href="styles/10-Rock-Paper-Scissors.css"> 
+    </head>
+    <body>
+ <p class="title">
+  Returning to your pet, or adopting a new one?
+ </p>  
+
+ <button class="js-save-button-one" onclick="
+     window.location.href = `http://127.0.0.1:5500/99-Tamogatchi-start-page.html`;
+
+     saveFile = 'one'
+
+     localStorage.setItem(`activeSaveFile`, JSON.stringify(saveFile));
+
+ ">New Save</button>
+
+<button class="js-save-button-two" onclick="
+window.location.href = `http://127.0.0.1:5500/99-Tamogatchi-start-page.html`;
+
+saveFile = 'two'   
+
+localStorage.setItem(`activeSaveFile`, JSON.stringify(saveFile));
+
+">New Save</button>
+
+<button class="js-save-button-three" onclick="
+window.location.href = `http://127.0.0.1:5500/99-Tamogatchi-start-page.html`;
+
+saveFile = 'three'
+
+localStorage.setItem(`activeSaveFile`, JSON.stringify(saveFile));
+
+">New Save</button>
+
+  <script src="scripts/99-Tomogachi.js"></script>
+ </body>
+</html>

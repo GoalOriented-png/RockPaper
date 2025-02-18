@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Tomogachi</title>
+
+      <link 
+        rel="stylesheet" 
+        href="styles/10-Rock-Paper-Scissors.css"> 
+    </head>
+    <body>
+ <p class="title">
+  Tomogachi
+ </p>  
+
+ <p class="name-display"></p>
+
+ <button onclick="
+ walk()">
+walk
+</button>
+
+  <button onclick="meal()">
+ meal
+  </button>
+
+  <button onclick="
+ play()">
+play
+</button>
+
+<button onclick="
+ doctor()">
+take to doctor
+</button>
+
+<button onclick="
+ train()">
+Attend training
+</button>
+
+<button onclick="
+ gameOverOne()">
+End Game
+</button>
+
+  <button onclick="
+    statArray.weight = 5;
+    statArray.happiness = 5;
+    statArray.health = 5;
+    statArray.energy = 5;
+    statArray.hunger = 5;
+  isHeHungry = false
+  isHeStarving = false
+  updateStats();
+  " class="reset-score">Reset Score</button>
+
+<button class="Pause-button" onclick="pausing();">Pause</button>
+
+  <p class="js-stats"></p>
+
+  <p class="js-timer">Time: </p>
+
+  <p class="js-hunger"></p>
+
+  <p class="js-sleepy"></p>
+
+  <script src="scripts/99-Tomogachi.js"></script>
+ </body>
+</html>
